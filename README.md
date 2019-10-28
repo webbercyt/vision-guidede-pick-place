@@ -1,10 +1,6 @@
 # vision-guidede-robot-pick-and-place
 
-# target 
-with the helps of abundant information of RGB images and 3D information from depth image / point cloud, 
-the pre-defined model can be regconize by its edge features, and whose 3D point cloud can be segmented. After 
-point cloud matching/registering with initial pose feed, the 3d pose related to pre-defined model is estimated.
-Then, transfer the pose to robot coordinate to guide the robot.
+target: guide robot to performance object pick with 3d vison computation 
 
 code type: c++
 
