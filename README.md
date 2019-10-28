@@ -26,7 +26,6 @@ bind camera coordinate to robot coordinate
 3. check the error of pose estimation (if error is too high, redo 1 to 3) 
 
 * scene localization
-1. find 2d features
-2. segment object with pre-defined mask
-3. performance point cloud alignment
-4. guide robot with 3d pose
+1. recognize and segment object with pre-defined mask
+2. pose estimation referred to model
+3. guide robot with 3d pose
